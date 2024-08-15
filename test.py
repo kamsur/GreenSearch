@@ -44,9 +44,9 @@ def load_image(image_path):
 # )
 
 # preprocessing_fn = smp.encoders.get_preprocessing_fn(ENCODER, ENCODER_WEIGHTS)
-# map.generateTileUrl(-55.10887, -7.22997, (3,19), 256)
-image=load_image('./100877_sat.jpg')
-print(image)
+map.generateTileUrl(-55.10887, -7.22997, (3,19), 256)
+# image=load_image('./100877_sat.jpg')
+# print(image)
 
 # if os.path.exists('./best_model.pth'):
 #     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
