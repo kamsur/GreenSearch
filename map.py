@@ -37,7 +37,7 @@ def generateTileUrl(longitude,latitude, zoom_level=15, tileSize=256, historical_
     _endpoint="https://atlas.microsoft.com/map/imagery/png"
 
     # Azure Maps API key
-    _api_key = "sUmIKKtgz-lVkZI6P5paolNRhvP6yqRY0weju-g3am0"
+    _api_key = "KEY_HERE"
 
     # Zoom level for satellite imagery
     # zoom_level = 15
